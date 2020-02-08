@@ -1,0 +1,118 @@
+/*** BASE STYLES ***/
+
+body{
+    background-color: #f1f1f1;
+    color: #59130b;
+    font-family:'Spectral', serif;
+    max-width: 1400px;
+}
+
+#portfolio {
+    height: 1000px;
+}
+#about {
+    height: 650px;
+}
+#contact {
+    height: 450px;
+}
+
+
+
+/*** GRID ***/
+
+.full-width {
+    max-width: 100%;
+    margin-top: 0;
+}
+.half-width {
+    width: 50%
+}
+.third-width {
+    width: 33%;
+}
+
+
+
+/*** HEADER ***/
+
+header {
+    background-image: url('../img/hero-image4.jpg');
+    background-size: cover;
+    height: 800px;
+    margin-top: -25px;
+}
+
+header .third-width {
+    text-align: center;
+    padding-top: 200px;
+    margin-left: 13%;
+}
+
+header .third-width h1 {
+    margin-bottom: 50px;
+}
+
+header .third-width h1 span {
+    color: #594319;
+}
+
+header .third-width ul {
+    color: #594319;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+    border: 1px solid white;
+    margin: 0 auto;
+    padding: 20px;
+    width: 200px;
+}
+
+/*** insert curly brackets around self-description and styling later on ***/
+
+
+/*** PORTFOLIO ***/
+
+main #portfolio {
+    padding: 25px;
+}
+
+main .full-width h3 {
+    font-size: 22px;
+    padding: 35px;
+    text-align: center;
+}
+
+main #prj1img, #prj2img {
+    width: 550px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 55px;
+}
+main #prj1title, #prj1txt, #prj2title, #prj2txt {
+    font-family: 'Karla', sans-serif;
+    float: left;
+    margin-left: 30px;
+    width: 550px;
+}
+main #prj1title, #prj2title {
+    font-size: 20px;
+}
+
+main #prj1title, #prj2title h4 {
+    font-weight: 600;
+    line-height: 0px;
+}
+main #prj1title, #prj2title h5 {
+    font-weight: 400;
+    line-height: 0px;
+}
+
+main #prj1txt, #prj2txt p {
+    margin-top: 20px;
+    line-height: 22px;
+}
+main #prj2img {
+    clear: both;
+}
