@@ -8,13 +8,15 @@ body{
 }
 
 #portfolio {
-    height: 1000px;
+    height: 950px;
 }
+
 #about {
-    height: 650px;
+    height: 600px;
 }
+
 #contact {
-    height: 450px;
+    height: 350px;
 }
 
 
@@ -28,8 +30,9 @@ body{
 .half-width {
     width: 50%
 }
+
 .third-width {
-    width: 33%;
+    width: 28%;
 }
 
 
@@ -40,7 +43,6 @@ header {
     background-image: url('../img/hero-image4.jpg');
     background-size: cover;
     height: 800px;
-    margin-top: -25px;
 }
 
 header .third-width {
@@ -74,45 +76,142 @@ header .third-width ul {
 
 /*** PORTFOLIO ***/
 
-main #portfolio {
-    padding: 25px;
-}
 
-main .full-width h3 {
+main #portfolio h3 {
     font-size: 22px;
-    padding: 35px;
+    margin: 0;
+    padding: 45px;
     text-align: center;
 }
 
-main #prj1img, #prj2img {
-    width: 550px;
+main #prj1, #prj2 {
     float: left;
-    margin-left: 30px;
-    margin-bottom: 55px;
 }
+
+main #prj1, #prj2 {
+    margin: 0 0 50px 75px;
+}
+
+main #prj1 a, #prj2 a {
+    width: 550px;
+}
+
+main .half-width {
+    float: left;
+}
+
 main #prj1title, #prj1txt, #prj2title, #prj2txt {
     font-family: 'Karla', sans-serif;
-    float: left;
-    margin-left: 30px;
-    width: 550px;
+    width: 350px;
+    margin-top: 8px;
+    margin-right: 150px;
 }
+
 main #prj1title, #prj2title {
     font-size: 20px;
+    line-height: 0px;
 }
 
-main #prj1title, #prj2title h4 {
+main #prj1title a, #prj2title a {
     font-weight: 600;
-    line-height: 0px;
-}
-main #prj1title, #prj2title h5 {
-    font-weight: 400;
-    line-height: 0px;
+    text-decoration: none;
+    color: #59130b;
 }
 
-main #prj1txt, #prj2txt p {
-    margin-top: 20px;
-    line-height: 22px;
+main #prj1title h5, #prj2title h5 {
+    font-weight: 400;
+    line-height: 0;
 }
-main #prj2img {
+
+main #prj1txt p, #prj2txt p {
+    line-height: 22px;
+    text-align: justify;
+}
+
+
+/*** ABOUT SECTION ***/
+
+main #about {
+    background-color: #401010;
+    color: #f1f1f1;
     clear: both;
+    margin: 0 auto;
+}
+    /***section header***/
+main #about h3 {
+    font-size: 22px;
+    margin: 0;
+    padding: 45px;
+    text-align: center;
+}
+    /***bio text***/
+main #bio {
+    font-family: 'Karla', sans-serif;
+    width: 350px;
+    height: 350px;
+    margin-left: 275px;
+    padding: 50px 0 50px 0;
+    text-align: justify;
+}
+
+main #about img {
+    border: 1px solid #f1f1f1;
+    margin-left: 50px;
+}
+
+
+
+/*** CONTACT SECTION ***/
+
+main #contact {
+    background-color: #594319;
+    color: #f1f1f1;
+    clear: both;
+    margin: 0 auto;
+}
+
+main #contact h3 {
+    font-size: 22px;
+    padding: 45px;
+    text-align: center;
+    margin: 0;
+}
+
+main #contact .third-width {
+    float: left;
+    font-family: 'Karla', sans-serif;
+    margin: 0 0 0 50px;
+    text-align: center;
+}
+
+main #contact .third-width h4 {
+    font-weight: 700;
+}
+
+main #follow p, #meet p {
+    font-weight: 400;
+}
+
+main #follow ul {
+    list-style: none;
+    padding: 0;
+}
+
+main #follow ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+
+
+/*** FOOTER SECTION ***/
+footer {
+    background-color: #594319;
+    border-top: 1px solid #f1f1f1;
+    color: #f1f1f1;
+    clear: both;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
 }

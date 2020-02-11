@@ -34,16 +34,16 @@
 
             <!--PORTFOLIO SECTION-->
             <section id="portfolio">
-                <div class="full-width">
+                <div class="full-width" id="prj1">
                     <h3>my portfolio</h3>
                 <!--project 1-->
-                    <div class="full-width">
-                        <div class="half-width" id="prj1img">
+                    <div>
+                        <div class="half-width">
                             <a href="https://emarinv1.github.io/rogue-pickings/" target="_blank"><img src="img/rogue-pickings-thumbnail.png" 
                             alt="Rogue Pickings website thumbnail" /></a>
                         </div>
                         <div class="half-width" id="prj1title">
-                            <h4>Rogue Pickings</h4>
+                            <a href="https://emarinv1.github.io/rogue-pickings/" target="_blank"> Rogue Pickings</a>
                             <h5>HTML &amp; CSS from Photoshop Design Comp</h5>
                         </div>
                         <div class="half-width" id="prj1txt">
@@ -56,18 +56,18 @@
                 </div>
 
                 <!--project 2-->
-                <div class="full-width">
-                    <div class="half-width" id="prj2img">
+                <div class="full-width" id="prj2">
+                    <div class="half-width">
                         <a href="https://emarinv1.github.io/jubilee-austen/" target="_blank"><img src="img/jubilee-thumbnail.png" 
                             alt="Jubilee Austen website thumbnail" /></a>
                     </div>
-                    <div class="half-width" id="prj2txt">
-                        <h4>Jubilee Austen Project</h4>
+                    <div class="half-width" id="prj2title">
+                        <a href="https://emarinv1.github.io/jubilee-austen/" target="_blank"> Jubilee Austen Project</a>
                         <h5>HTML5 &amp; CSS Website</h5>
                     </div>
-                    <div>
+                    <div class="half-width" id="prj2txt">
                         <p>A one-page portfolio project showcasing a fun, elegant design that shows a lot of personality 
-                            and basic information.
+                            and basic information, created from a Photoshop Design Comp. Perfect template for bio or landing pages. Easily customizable.
                         </p>
                     </div>
                 </div>
@@ -75,34 +75,40 @@
 
             <!--ABOUT SECTION-->
             <section id="about">
-                <h3>about me</h3>
-                <div class="half-width">
-                    <img src="img/profile-square.png" alt="Erin Mar&iacute;n" />
-                </div>
-                <div class="half-width">
-                    <p>I am passionate about creating beautiful things</p>
-                    <p>I am a freelance web developer, photographer, artist, and writer. I left my career in finance 
-                        for a more fun, independent, and fulfilling kind of work. My greatest joy in life (other than coding, of course) is exploring 
-                        the wild outdoors with my husband Sim&oacute;n and my darling cat Alice.</p>
-                    <p>Let's create something together! ;)</p>
+                <div class="full-width">
+                    <h3>about me</h3>
+                    <div>
+                        <div class="half-width" id="bio">
+                            <p>I am passionate about creating beautiful things.</p>
+                            <p>I am a freelance web developer, photographer, artist, and writer. I left my career in finance 
+                            for a more fun, independent, and fulfilling kind of work: coding! I love finding creative, beautiful
+                            solutions for the practical needs of my clients.</p>
+                            <p>When I'm not working, you can find me exploring the wild outdoors with my husband Sim&oacute;n 
+                                and my darling cat Alice.</p>
+                            <p>Let's create something together! ;)</p>
+                        </div>
+                        <div class="half-width">
+                            <img src="img/profile-square.png" alt="Erin Mar&iacute;n" height="350px"/>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <!--CONTACT SECTION-->
             <section id="contact">
                 <h3>let's connect</h3>
-                <div class="third-width">
+                <div class="third-width" id="hire">
                     <h4>Hire Me</h4>
                     <p>931-625-3071<br>erin.fannin@icloud.com</p>
                 </div>
-                <div class="third-width">
+                <div class="third-width" id="follow">
                     <h4>Follow Me</h4>
                     <ul>    <!--ADD LINKS AND ICONS WHEN COLOR IS DECIDED-->
-                        <li>*github</li>
-                        <li>*linkedin</li>
+                        <li><a href="https://github.com/emarinv1" target="_blank"><img src="img/github.png" width="35px" alt="github icon" /></a></li>
+                        <li><a href="https://www.linkedin.com/in/erin-marin-42380b1a1/" target="_blank"><img src="img/linkedin.png" width="35px" alt="linkedin icon" /></a></li>
                     </ul>
                 </div>
-                <div class="third-width">
+                <div class="third-width" id="meet">
                     <h4>Meet Me</h4>
                     <p>Richland, WA<br>Let's have coffee!</p>
                 </div>
@@ -111,23 +117,10 @@
            <!--FOOTER SECTION-->
             <footer>
                 <!--copyright stuff here-->
-                <div class="half-width">
+                <div class="full-width">
                     &copy; 2020 | Erin Mar&iacute;n
                 </div>
-                <!--hero photo credit badge code-->
-                <div class="half-width">
-                    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, 
-                    BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;
-                    Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" 
-                    href="https://unsplash.com/@fempreneurstyledstock?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" 
-                    target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Leone Venter">
-                    <span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;
-                    position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title>
-                    <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;
-                    padding:2px 3px">Leone Venter</span></a>
-                </div>
-                <!--END hero credit badge code-->
-                </footer>
+            </footer>
         </main>
     </body>
 </html>
