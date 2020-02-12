@@ -1,22 +1,15 @@
 /*** BASE STYLES ***/
 
-body{
+body {
     background-color: #f1f1f1;
     color: #59130b;
     font-family:'Spectral', serif;
     max-width: 1400px;
 }
 
-#portfolio {
-    height: 950px;
-}
-
-#about {
-    height: 600px;
-}
-
-#contact {
-    height: 350px;
+main h3 {
+    margin: 0;
+    padding: 25px;
 }
 
 
@@ -25,16 +18,30 @@ body{
 
 .full-width {
     max-width: 100%;
-    margin-top: 0;
+    
 }
 .half-width {
-    width: 50%
+    float: left;
+    margin: 20px 50px 20px 50px;
+    width: 550px;
 }
 
 .third-width {
     width: 28%;
+    margin-left: 50px;
 }
 
+#portfolio {
+    height: 925px;
+}
+
+#about {
+    height: 525px;
+}
+
+#contact {
+    height: 300px;
+}
 
 
 /*** HEADER ***/
@@ -46,13 +53,16 @@ header {
 }
 
 header .third-width {
+    height: ;
+}
+
+header .third-width {
     text-align: center;
-    padding-top: 200px;
-    margin-left: 13%;
+    padding: 20% 0 0 20%;
 }
 
 header .third-width h1 {
-    margin-bottom: 50px;
+    margin-top: 0;
 }
 
 header .third-width h1 span {
@@ -66,7 +76,7 @@ header .third-width ul {
     line-height: 26px;
     list-style: none;
     border: 1px solid white;
-    margin: 0 auto;
+    margin: 15%;
     padding: 20px;
     width: 200px;
 }
@@ -74,13 +84,33 @@ header .third-width ul {
 /*** insert curly brackets around self-description and styling later on ***/
 
 
+    /*NAV*/
+nav {
+    float: left;
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #401010;
+    padding-left: 30px;
+}
+
 /*** PORTFOLIO ***/
 
 
 main #portfolio h3 {
     font-size: 22px;
-    margin: 0;
-    padding: 45px;
     text-align: center;
 }
 
@@ -88,28 +118,16 @@ main #prj1, #prj2 {
     float: left;
 }
 
-main #prj1, #prj2 {
-    margin: 0 0 50px 75px;
-}
-
-main #prj1 a, #prj2 a {
-    width: 550px;
-}
-
-main .half-width {
-    float: left;
-}
-
 main #prj1title, #prj1txt, #prj2title, #prj2txt {
     font-family: 'Karla', sans-serif;
-    width: 350px;
-    margin-top: 8px;
-    margin-right: 150px;
+    margin-left: 50px;
+    width: 450px;
 }
 
 main #prj1title, #prj2title {
     font-size: 20px;
     line-height: 0px;
+    padding: 10px 0 10px 0;
 }
 
 main #prj1title a, #prj2title a {
@@ -120,43 +138,42 @@ main #prj1title a, #prj2title a {
 
 main #prj1title h5, #prj2title h5 {
     font-weight: 400;
-    line-height: 0;
+    margin: 20px 0 0 0;
 }
 
+main div #prj1txt, #prj2txt {
+    margin-top: 0;
+}
 main #prj1txt p, #prj2txt p {
     line-height: 22px;
     text-align: justify;
+    margin-top: 0;
 }
 
 
 /*** ABOUT SECTION ***/
 
-main #about {
+main #about {   /*whole section*/
     background-color: #401010;
     color: #f1f1f1;
     clear: both;
-    margin: 0 auto;
 }
-    /***section header***/
-main #about h3 {
+
+main #about h3 {    /*section title*/
     font-size: 22px;
-    margin: 0;
-    padding: 45px;
     text-align: center;
 }
-    /***bio text***/
-main #bio {
+    
+main #bio {     /***bio text div ***/
     font-family: 'Karla', sans-serif;
-    width: 350px;
-    height: 350px;
-    margin-left: 275px;
-    padding: 50px 0 50px 0;
     text-align: justify;
+    margin-left: 100px;
+    width: 450px;
 }
 
 main #about img {
     border: 1px solid #f1f1f1;
-    margin-left: 50px;
+    margin: 0 100px 0 100px;
 }
 
 
@@ -164,23 +181,19 @@ main #about img {
 /*** CONTACT SECTION ***/
 
 main #contact {
-    background-color: #594319;
+    background-color: #571B11;
     color: #f1f1f1;
     clear: both;
-    margin: 0 auto;
 }
 
 main #contact h3 {
     font-size: 22px;
-    padding: 45px;
     text-align: center;
-    margin: 0;
 }
 
 main #contact .third-width {
     float: left;
     font-family: 'Karla', sans-serif;
-    margin: 0 0 0 50px;
     text-align: center;
 }
 
@@ -199,18 +212,24 @@ main #follow ul {
 
 main #follow ul li {
     display: inline-block;
-    margin: 5px;
 }
-
 
 
 
 /*** FOOTER SECTION ***/
 footer {
-    background-color: #594319;
+    background-color: #571B11;
     color: #f1f1f1;
     clear: both;
-    margin: 0 auto;
-    padding: 25px;
     text-align: center;
+}
+
+footer #attributions {
+    font-size: 10px;
+}
+
+footer a {
+    color: #f1f1f1;
+    font-size: 10px;
+    text-decoration: none;
 }

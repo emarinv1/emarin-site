@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Spectral:400,600&display=swap" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet" type="text/css">
-
     </head>
 
 
@@ -17,17 +16,26 @@
     <body>
 
         <!--HEADER SECTION-->
-        <header class="full-width">
-            <div class="third-width">
-                <h1>hi there, i'm <span>erin mar&iacute;n</span></h1>
-                <ul>
-                    <li>web developer</li>
-                    <li>artist</li>
-                    <li>writer</li>
-                    <li>problem-solver</li>
-                </ul>
+        <header>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#portfolio">my portfolio</a></li>
+                        <li><a href="#about">about me</a></li>
+                        <li><a href="#contact">contact me</a></li>
+                    </ul>
+                </nav>
             </div>
-            <!--Hero image and intro goes here-->
+                <div class="third-width">
+                    <h1>hi there, i'm <span>erin mar&iacute;n</span></h1>
+                    <ul>
+                        <li>web developer</li>
+                        <li>artist</li>
+                        <li>writer</li>
+                        <li>problem-solver</li>
+                    </ul>
+                </div>
+                
         </header>
 
         <main>
@@ -77,7 +85,7 @@
             <section id="about">
                 <div class="full-width">
                     <h3>about me</h3>
-                    <div>
+                    <div class="full-width">
                         <div class="half-width" id="bio">
                             <p>I am passionate about creating beautiful things.</p>
                             <p>I am a freelance web developer, photographer, artist, and writer. I left my career in finance 
@@ -97,20 +105,22 @@
             <!--CONTACT SECTION-->
             <section id="contact">
                 <h3>let's connect</h3>
-                <div class="third-width" id="hire">
-                    <h4>Hire Me</h4>
-                    <p>931-625-3071<br>erin.fannin@icloud.com</p>
-                </div>
-                <div class="third-width" id="follow">
-                    <h4>Follow Me</h4>
-                    <ul>    <!--ADD LINKS AND ICONS WHEN COLOR IS DECIDED-->
-                        <li><a href="https://github.com/emarinv1" target="_blank"><img src="img/github.png" width="35px" alt="github icon" /></a></li>
-                        <li><a href="https://www.linkedin.com/in/erin-marin-42380b1a1/" target="_blank"><img src="img/linkedin.png" width="35px" alt="linkedin icon" /></a></li>
-                    </ul>
-                </div>
-                <div class="third-width" id="meet">
-                    <h4>Meet Me</h4>
-                    <p>Richland, WA<br>Let's have coffee!</p>
+                <div class="full-width">
+                    <div class="third-width" id="hire">
+                        <h4>Hire Me</h4>
+                        <p>931-625-3071<br>erin.fannin@icloud.com</p>
+                    </div>
+                    <div class="third-width" id="follow">
+                        <h4>Follow Me</h4>
+                        <ul>    <!--ADD LINKS AND ICONS WHEN COLOR IS DECIDED-->
+                            <li><a href="https://github.com/emarinv1" target="_blank"><img src="img/github.png" width="35px" alt="github icon" /></a></li>
+                            <li><a href="https://www.linkedin.com/in/erin-marin-42380b1a1/" target="_blank"><img src="img/linkedin.png" width="35px" alt="linkedin icon" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="third-width" id="meet">
+                        <h4>Meet Me</h4>
+                        <p>Richland, WA<br>Let's have coffee!</p>
+                    </div>
                 </div>
             </section>
 
@@ -119,6 +129,11 @@
                 <!--copyright stuff here-->
                 <div class="full-width">
                     &copy; 2020 | Erin Mar&iacute;n
+                </div>
+                <div id="attributions">
+                    Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> 
+                    &amp; <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> 
+                    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
                 </div>
             </footer>
         </main>
