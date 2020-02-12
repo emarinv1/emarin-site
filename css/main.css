@@ -226,10 +226,12 @@ footer {
 
 footer #attributions {
     font-size: 10px;
+    color: #f1f1f1;
+    font-size: 10px;
 }
 
 footer a {
-    color: #f1f1f1;
+    color: #cbcbcb;
     font-size: 10px;
     text-decoration: none;
 }
